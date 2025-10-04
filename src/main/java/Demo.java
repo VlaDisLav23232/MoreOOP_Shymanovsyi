@@ -40,7 +40,7 @@ abstract class Character {
 
     @Override
     public String toString() {
-        return name + "{" + "power=" + power + ", hp=" + hp + '}';
+        return name + "{" + "hp=" + hp + ", power=" + power + '}';
     }
 }
 
