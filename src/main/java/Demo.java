@@ -52,7 +52,7 @@ class Hobbit extends Character {
 
     @Override
     public void kick(Character c) {
-        System.out.println("-> " + this.getName() + " is crying... sniff-sniff...");
+        System.out.println("-> " + this.getName() + " is crying...");
     }
 }
 
